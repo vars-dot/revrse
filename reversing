@@ -1,0 +1,9 @@
+str=input("enter the string")
+t=0
+str=str.lower()
+for i in range(len(str)):
+    t=t+1                 
+if (t%2==0):
+    print(str[-1::-2])
+else:
+    print(str[-2::-2])
